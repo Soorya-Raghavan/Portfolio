@@ -1,0 +1,85 @@
+CSS
+
+  1. CSS is used to style the HTML Elements
+  2. How to apply CSS in HTML -
+
+        -Inline CSS = style attribute
+           -Syntax :  style="property:value;"
+
+        -Internal CSS - <style>
+            -Syntax : 
+                 <style>
+                    selectors{
+                        property: value;
+                    } 
+                </style>
+
+        -External CSS - Used external CSS file, we have to link css file to HTML file then only the output will be ready. without linking with HTML the external process won't work properly
+            -Syntax : 
+                 selectors{
+                    property: value;
+                 }
+
+  3.  CSS selectors - it is used for selecting html elements to css file
+        -Tag name
+        -id  = it will always act as unique, while using id then we want to use # symbol to know it is a id then only system will understand  
+        -class = used to group different items, here dot is used to access 
+        -Universal selector = 
+        -Css combinators =  used instead of class in two tags/elements
+        -Grouping selectors = two or more tags are grouped without class and provide a style. use comma
+        -Decendent selector = parent child relation , here space is used
+        -Child selector = use > symbol
+        -Sibling selector =  ~ this sign is used to find 
+        -Immediate sibiling selector = using + 
+
+ 4.  Box Model
+        -Border
+        -Margin
+        -Padding = space btw margin and the elements
+
+5. CSS Property  
+        -Float = used to arrange the position
+        -Position = 
+        -Fixed =
+        -Absolute =    
+        -stikey =
+        -zindex = 
+
+removebg site is used to remove the background of va image
+canva is used to generate random shape
+combination of clrs apply cheyynnadh is known as linear gradiant
+angle = directions
+
+- linear gradient = isn used to set combination of colors as background
+        - Syntax
+   
+   @keyframes = keyword used for animations
+
+- css animations = animation property,to drfine @keyframes
+transform is used to rotate/change
+site = animate.style
+
+- Animation libraries
+         http://animate.style/
+
+- AOS animate
+         https://michalsnik.github.io/aos/     
+
+- wedkit is used to style the scrollbar    
+
+-locomotive scroll 
+
+-website hosting:
+       -netlify =
+       Domain management
+       
+
+
+                        GIT & GITHUB 
+   
+   1. GIT : used to control versions of a code
+   2. GIT commands :
+          - git status : used to check status of git inside the folder
+          -git init : used to create/initiate git respositary in a folder
+          -git add . :used to teack all the untracked files to git 
+          -git commmit -m "message" : used to save/store tracked files to git
